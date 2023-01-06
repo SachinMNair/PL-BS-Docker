@@ -1,0 +1,16 @@
+{
+  "name": "pl-bs-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --config=./playwright.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1",
+    "playwright": "^1.29.1",
+    "browserstack-local": "^1.4.8"
+  }
+}
